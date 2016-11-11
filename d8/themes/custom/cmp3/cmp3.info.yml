@@ -1,0 +1,13 @@
+name: CMP3
+type: theme
+description: Thema voor <a href="http://gdm.gent/1617_cmp3">cmp3</a> proDEV 
+regions:
+  header: Header
+  content: Main content
+  footer: Footer
+  sidebar: Sidebar
+screenshot: screenshot.png
+libraries:
+  - cmp3/global
+version: '0.x-0.1'
+core: '8.x'

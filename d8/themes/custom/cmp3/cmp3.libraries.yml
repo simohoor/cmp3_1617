@@ -1,0 +1,12 @@
+global:
+  version: 1.x
+  css:
+    theme:
+      css/main.css: {}
+      css/normalize.css: {}
+  js:
+    js/plugins.js: {}
+    js/vendor/jquery-1.12.0.min.js: {}
+    js/vendor/modernizr-2.8.3.min.js: {}
+  dependencies:
+    - core/jquery
