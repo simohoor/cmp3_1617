@@ -1,21 +1,27 @@
 <div class="header-container">
-    <div class="header">
-        
-    </div>
     <header class="wrapper clearfix">
-        {{page.header}}
+        <nav>
+            <ul>
+                <li>{{ page.header }}</li>
+            </ul>
+        </nav>    
     </header>
 </div>
 <div class="main-container">
     <div class="main wrapper clearfix">
-        {{page.content}}
+    <br>
         <aside>
-            {{page.sidebar}}
-        </aside>
+            {{ page.sidebar }}
+        </aside>  
+    <br>    
+    <article>
+        {{ page.content }}
+    </article>    
+          
     </div>
 </div> 
 <div class="footer-container">
     <footer class="wrapper">
-        {{page.footer}}
+        {{ page.footer }}
     </footer>
 </div>

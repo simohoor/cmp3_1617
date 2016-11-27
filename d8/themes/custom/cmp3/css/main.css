@@ -13,7 +13,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.4
 }
 
 /*
@@ -99,39 +99,41 @@ body {
 }
 
 .wrapper {
-    width: 85%;
+    width: 90%;
     margin: 0 5%;
 }
 nav{
-    margin-top: 50px;
     text-transform: uppercase;
 }
 
 nav a{
-    font-size: 18px;
+    font-size: 22px;
     color:white;
 }
 nav ul li{
-    float: right;
+    float: left;
     margin-left:20px;
+}
+.header-container nav ul li{
+    font-family: 'Oswald', sans-serif;
 }
 .header{
     height: 400px;
-    color:white;
+    color:#f5c000;
     font-size: 50px;
     margin-top:-68px;
     text-align: center;
 
 }
 article{
-    margin-left:40px;
-    width: 100%;
+    margin-left:60px;
+    width: 80%;
 }
 .category{
     color: #7e121f;
 }
 .headerTxt{
-    color: white;
+    color: #f5c000;
     padding-top:240px;
     padding-bottom:50px;
 }
@@ -141,21 +143,22 @@ footer a{
 }
 aside a{
     color:lightgray;
+    margin-left: 20px;
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover{
-    color: #2E9AFE;
+    color: #f5c000;
 }
 .footer-container{
     text-align: center;
     padding-bottom: 40px;
 }
 #footer{
-    color:white;
+    color:#f5c000;
     padding-top: 20px;
 }
 @media (max-width: 800px){
@@ -181,21 +184,66 @@ a:hover{
 .footer-container,
 .main aside {
     background-color: #1C1C1C;
+    z-index: -100;
 }
 
 .title {
-    color: white;
+    color: #f5c000;
 }
  .main aside {
         float: right;
         width: 20%;
 }
 .main aside {
-    color: white;
+    color: #f5c000;
     padding: 25px;
     padding-top:15px;
 }    
 
+.contextual-region {
+    margin-bottom:140px;
+}
+.contextual-region h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contextual-region footer{
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    bottom: -30px;
+}
+#block-cmp3-tools, #block-cmp3-search{
+    margin-bottom:0;
+}
+input[type="submit"]{
+    font-family: 'Abel', sans-serif;
+    background-color: #f5c000;
+    color:black;
+    border:none;
+    display:inline;
+    padding:right:200px;
+}
+input[type="submit"]:hover{
+    color:white;
+    background-color: black;
+}
+#block-cmp3-branding a{ 
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#block-cmp3-branding a img{ 
+    width: 27%;  
+    display: block;
+    margin: auto;
+}
+#block-cmp3-branding{
+    width: 90vw;
+}
+#block-cmp3-branding a:nth-child(3){
+    display: none;
+}
 
 /* ==========================================================================
    Helper classes
